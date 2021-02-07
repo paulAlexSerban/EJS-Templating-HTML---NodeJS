@@ -1,0 +1,24 @@
+<%- include('partials/head') %>
+
+<body>
+  <%- include('partials/navbar') %>
+
+  <h1>Browsing <%= name %> subreddit</h1>
+  <p><%= name %></p>
+  <p><%= description %></p>
+  <p><%= subscribers %></p>
+  <hr>
+  <% for(let post of posts) { %>
+    <article>
+      <h3><%= post.title %></h3>
+      <p><%= post.author %></p>
+      <% if(post.img) { %> 
+        <img src="<%= post.img %>" alt="">
+      <% } %> 
+    </article>
+  <% } %>
+
+  <script src="/js/jquery-3.5.1.min.js" async defer></script>
+  <script src="/js/bootstrap.min.js" async defer></script>
+</body>
+</html>

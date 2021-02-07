@@ -1,0 +1,24 @@
+{
+  "name": "EJS-Templating-HTML---NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulAlexSerban/EJS-Templating-HTML---NodeJS.git"
+  },
+  "keywords": [],
+  "author": "Paul Serban <serban.paul.91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulAlexSerban/EJS-Templating-HTML---NodeJS/issues"
+  },
+  "homepage": "https://github.com/paulAlexSerban/EJS-Templating-HTML---NodeJS#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

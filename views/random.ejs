@@ -1,0 +1,16 @@
+<%- include('partials/head') %>
+<body>
+  <%- include('partials/navbar') %>
+
+  <h1>Your random number is: <%= Math.floor(Math.random() * 10) + 1 %></h1>
+  <h2>The num constant passed from index.js <%= rand %></h2>
+
+  <% if(rand % 2 === 0) { %> 
+    <h2>that is an EVEN number!</h2>
+  <% } else { %> 
+    <h2>that is an ODD number!</h2>
+  <% } %> 
+
+  <h3>This number is: <%= rand % 2 === 0 ? 'Even' : 'Odd' %></h3>
+</body>
+</html>
